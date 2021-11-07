@@ -8,7 +8,7 @@ public class MyTask {
 	public static void DoTask() 
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Введите количество чисел > ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» > ");
 		int N = sc.nextInt();
 		
 		double a;
@@ -16,7 +16,7 @@ public class MyTask {
 		
 		for(int i=0; i<N; i++) 
 		{
-			System.out.print("Введите число "+String.valueOf(i+1)+" > ");
+			System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ "+String.valueOf(i+1)+" > ");
 			a = sc.nextDouble();
 			aa.add(a);
 		}
@@ -37,7 +37,7 @@ public class MyTask {
 		System.out.println(max2);
 		
 		double b = 0;
-		System.out.println("Сумма квадратов = ");
+		System.out.println("РЎСѓРјРјР° РєРІР°РґСЂР°С‚РѕРІ = ");
 		b = max*max + max2*max2;
 		System.out.println(b);
 		sc.close();
