@@ -27,6 +27,7 @@ public class MyTask {
 		        max = i;
 		}
 		System.out.println(max);
+		aa.remove(max);	
 		
 		double max2 = aa.get(0);
 		for (Double i: aa) {
