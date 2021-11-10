@@ -38,9 +38,9 @@ public class MyTask {
 		                }
 		            }
 		        }
-		        System.out.println("Минимальный элемент:"+min);
-		        System.out.println("Строка:"+stroka);
-		        System.out.println("Столбец:"+stolbec);
+		         System.out.println("РњРёРЅРёРјР°Р»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚:"+min);
+		        System.out.println("РЎС‚СЂРѕРєР°:"+stroka);
+		        System.out.println("РЎС‚РѕР»Р±РµС†:"+stolbec);
 		    }
 
 	    
@@ -57,8 +57,8 @@ public class MyTask {
 	                }
 	            }
 	        }
-	        System.out.println("Максмальный элемент:"+max);
-	        System.out.println("Строка:"+stroka1);
-	        System.out.println("Столбец:"+stolbec1);
+	        System.out.println("РњР°РєСЃРјР°Р»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚:"+max);
+	        System.out.println("РЎС‚СЂРѕРєР°:"+stroka1);
+	        System.out.println("РЎС‚РѕР»Р±РµС†:"+stolbec1);
 	    }
 }
