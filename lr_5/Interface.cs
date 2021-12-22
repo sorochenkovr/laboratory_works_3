@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lr9
+namespace lr_5
 {
     public interface ICalculate
     {
