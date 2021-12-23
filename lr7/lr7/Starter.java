@@ -12,36 +12,36 @@ public class Starter {
 		int z=0; 
 		do
 		{
-			System.out.println("1 - Список товара \n"
-					+ "2 - Товар в разных категориях \n"
-					+ "3 - Описание товара \n"
-					+ "4 - Добавить новый товар\n"
-					+ "5 - Выход.");
+			System.out.println("1 - РЎРїРёСЃРѕРє С‚РѕРІР°СЂР° \n"
+					+ "2 - РўРѕРІР°СЂ РІ СЂР°Р·РЅС‹С… РєР°С‚РµРіРѕСЂРёСЏС… \n"
+					+ "3 - РћРїРёСЃР°РЅРёРµ С‚РѕРІР°СЂР° \n"
+					+ "4 - Р”РѕР±Р°РІРёС‚СЊ РЅРѕРІС‹Р№ С‚РѕРІР°СЂ\n"
+					+ "5 - Р’С‹С…РѕРґ.");
 			z = sc.nextInt();
 			switch(z)
 			{
 			case 1: infa.spisokTovara(); break;
-			case 2 : System.out.println("Желаемая цена: \n"
-												+"1 - меньше 100р\n"
-												+ "2- от 100р до 1000\n"
-												+ "3-	более 1000р \n");
+			case 2 : System.out.println("Р–РµР»Р°РµРјР°СЏ С†РµРЅР°: \n"
+												+"1 - РјРµРЅСЊС€Рµ 100СЂ\n"
+												+ "2- РѕС‚ 100СЂ РґРѕ 1000\n"
+												+ "3-	Р±РѕР»РµРµ 1000СЂ \n");
 					int z1 = sc.nextInt();			
 					infa.spisokTovara(z1); break;
-			case 3 : System.out.println("Введите характеристики - \n");
+			case 3 : System.out.println("Р’РІРµРґРёС‚Рµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё - \n");
 					 String str = sc.next();
 					 if (infa.findTovar(str)!=null)
 						 System.out.println(infa.findTovar(str).toString());
-					 else System.out.println("Произошла ошибка");
+					 else System.out.println("РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР°");
 					 break;
-			case 4: System.out.println("Название товара \n");
+			case 4: System.out.println("РќР°Р·РІР°РЅРёРµ С‚РѕРІР°СЂР° \n");
 					String n_naming = sc.next();
-					System.out.println("Категория товара \n");
+					System.out.println("РљР°С‚РµРіРѕСЂРёСЏ С‚РѕРІР°СЂР° \n");
 					String n_kateg = sc.next();
-					System.out.println("Цена товара \n");
+					System.out.println("Р¦РµРЅР° С‚РѕРІР°СЂР° \n");
 					float n_tsen =sc.nextFloat();
-					System.out.println("Скидка на товар \n");
+					System.out.println("РЎРєРёРґРєР° РЅР° С‚РѕРІР°СЂ \n");
 					float n_skidka = sc.nextFloat();
-					System.out.println("Цена товара в Чёрную пятницу \n");
+					System.out.println("Р¦РµРЅР° С‚РѕРІР°СЂР° РІ Р§С‘СЂРЅСѓСЋ РїСЏС‚РЅРёС†Сѓ \n");
 					float n_sama_skidka = sc.nextFloat();
 					infa.addTovar(new Tovar(n_naming, n_kateg, n_tsen, n_skidka, n_sama_skidka)); break;
 			}
