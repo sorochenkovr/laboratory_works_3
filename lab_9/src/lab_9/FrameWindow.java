@@ -24,7 +24,7 @@ public class FrameWindow extends JFrame{
 	JTextField answer;
 	public FrameWindow (int axis)
 	{
-		super("Вариант 25");
+		super("Р’Р°СЂРёР°РЅС‚ 25");
 		setSize(300,450);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		Container cont = getContentPane();
@@ -50,7 +50,7 @@ public class FrameWindow extends JFrame{
 		cont.add(new JLabel("y"));
 		y = new JTextField("0");
 		cont.add(y);
-		JButton btn = new JButton("Подсчитать: ");
+		JButton btn = new JButton("РџРѕРґСЃС‡РёС‚Р°С‚СЊ: ");
 		cont.add(btn);
 		btn.addActionListener(new ChD());
 		answer = new JTextField("0");
@@ -88,3 +88,4 @@ public class FrameWindow extends JFrame{
 	}
 
 }
+
