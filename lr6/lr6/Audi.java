@@ -10,26 +10,25 @@ public class Audi  implements IDraw {
 		{
 			aud = au;
 		}
-	
-		
-		
-		@Override
-		public String toString()
-		{
-			return "Учтённый автомобиль: " + String.valueOf(aud) + "\n" ;
-		}
-		@Override
-		public String MASHINE() {
-			return "Ауди";
-		}
+
+
 		public void Draw() {
 			System.out.println("      _________           \n "
 							  +"   __|         |___       \n "
 							  +"  |             ___|      \n "
 							  +"     (_)        (_)        \n ");
 		}
+		
+		@Override
+		public String toString()
+		{
+			return "РЈС‡С‚С‘РЅРЅС‹Р№ Р°РІС‚РѕРјРѕР±РёР»СЊ: " + String.valueOf(aud) + "\n" ;
+		}
+		@Override
+		public String MASHINE() 		{
+			return "РђСѓРґРё";
 		}
 
 	}
 
-}
+
