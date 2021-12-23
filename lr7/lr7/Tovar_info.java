@@ -15,9 +15,9 @@ public class Tovar_info {
 	public Tovar_info()
 	{
 		tov = new TreeSet<>(Comparator.comparingDouble(u ->u.tsen));
-		tov.add(new Tovar("Молоко", "молочные продукты", 59, 6, 26000f));
-		tov.add(new Tovar("Хлеб", "хлебобулочные изделия",  3, 12, 26000f));
-		tov.add(new Tovar("Сок", "напитки", 120, 2, 26000f));
+		tov.add(new Tovar("РњРѕР»РѕРєРѕ", "РјРѕР»РѕС‡РЅС‹Рµ РїСЂРѕРґСѓРєС‚С‹", 59, 6, 26000f));
+		tov.add(new Tovar("РҐР»РµР±", "С…Р»РµР±РѕР±СѓР»РѕС‡РЅС‹Рµ РёР·РґРµР»РёСЏ",  3, 12, 26000f));
+		tov.add(new Tovar("РЎРѕРє", "РЅР°РїРёС‚РєРё", 120, 2, 26000f));
 
 	}
 	
@@ -36,8 +36,8 @@ public class Tovar_info {
 	{
 		tov.add(cl);
 		if(tov.contains(cl))
-			System.out.println("Товар занесён в базу");
-		else System.out.println("Произошла ошибка");
+			System.out.println("РўРѕРІР°СЂ Р·Р°РЅРµСЃС‘РЅ РІ Р±Р°Р·Сѓ");
+		else System.out.println("РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР°");
 	}
 	
 	public void spisokTovara()
